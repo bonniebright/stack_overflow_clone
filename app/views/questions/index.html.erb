@@ -1,1 +1,14 @@
-<h1> Hi Bonnie </h1>
+<%= content_for(:title, "Questions") %>
+
+<div class="main-page container">
+  <div class="row">
+    <h1>StackOverflow</h1>
+
+    <ul>
+      <% @questions.each do | question | %>
+        <li><%= question.question %></li>
+      <% end %>
+    </ul>
+
+  </div>
+</div>

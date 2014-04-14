@@ -1,0 +1,46 @@
+/* ====================================== HEADER ====================================== */
+
+.header {
+  background-color: DeepSkyBlue;
+  color: white;
+  ul li {
+    list-style: none;
+  }
+}
+
+
+.container-inner {
+  width: 100%;
+
+}
+
+
+
+/* ======================================= BODY ======================================= */
+
+.flash {
+  margin-top: 60px;
+  right: 0px;
+  font-size: 2em;
+  .green {
+    list-style: none;
+    color: #60b044;
+  }
+}
+
+.red {
+  list-style: none;
+  color: Red;
+}
+
+
+
+
+
+
+
+/* ====================================== FOOTER ====================================== */
+
+.footer {
+  background-color: WhiteSmoke;
+}
