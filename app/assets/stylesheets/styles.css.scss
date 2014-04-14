@@ -8,6 +8,26 @@
   }
 }
 
+.header-links {
+  padding: 15px 35px 0px 0px;
+  font-size: 1.2em;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: Purple;
+    text-decoration: none;
+  }
+  li {
+    display: inline;
+    margin-left: 10px;
+  }
+}
+
+.purple {
+  color: Purple;
+}
 
 .container-inner {
   width: 100%;
