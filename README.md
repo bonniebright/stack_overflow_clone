@@ -4,7 +4,7 @@
 
 Let's make a clone of Stack Overflow.
 
-* As a user, I want to ask a question, so that I can get help with a programming problem I'm having. Users must have an account and sign in to ask questions.
+* [ COMPLETED ] As a user, I want to ask a question, so that I can get help with a programming problem I'm having. Users must have an account and sign in to ask questions.
 
 * As a user, I want to answer a question, so that I can help somebody else out. Use AJAX to add a response to the question's page without reloading it!
 

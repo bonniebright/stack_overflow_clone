@@ -9,5 +9,6 @@ StackOverflow::Application.routes.draw do
   resources :questions
   resources :users
   resources :sessions
+  resources :answers
 
 end
