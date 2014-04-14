@@ -1,0 +1,14 @@
+<div class="answer-form">
+  <%= form_for @answer, remote: true do |f| %>
+    <div class="form-group">
+      <%= f.label :answer %></br>
+      <%= f.text_field :answer %>
+    </div>
+    <div class="form-group">
+      <%= f.hidden_field :user_id, :value => current_user.id %></br>
+      <%= f.hidden_field :question_id, :value => @question.id %></br>
+      <%= f.submit(:class => "btn btn-primary") %>
+    </div>
+
+  <% end %>
+</div>
